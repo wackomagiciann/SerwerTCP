@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_2", "Lab1_2\Lab1_2.csproj", "{A688104F-6A66-48FD-B7C8-C2A5BF13D437}"
+	ProjectSection(ProjectDependencies) = postProject
+		{687E635B-97EB-463F-ABD0-259021759E55} = {687E635B-97EB-463F-ABD0-259021759E55}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTCPLibrary", "ServerTCPLibrary\ServerTCPLibrary.csproj", "{687E635B-97EB-463F-ABD0-259021759E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A688104F-6A66-48FD-B7C8-C2A5BF13D437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A688104F-6A66-48FD-B7C8-C2A5BF13D437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A688104F-6A66-48FD-B7C8-C2A5BF13D437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A688104F-6A66-48FD-B7C8-C2A5BF13D437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687E635B-97EB-463F-ABD0-259021759E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687E635B-97EB-463F-ABD0-259021759E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687E635B-97EB-463F-ABD0-259021759E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687E635B-97EB-463F-ABD0-259021759E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D98D84-9538-4CF9-AAB5-AC42DFCA69AB}
+	EndGlobalSection
+EndGlobal
